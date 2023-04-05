@@ -1,0 +1,31 @@
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* global style starts here  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* global style ends here  */
+
+.codex-editor__redactor {
+  padding-bottom: 50px !important;
+}
+
+.codex-editor:first-child {
+  display: none;
+}
+
+.jodit-status-bar {
+  visibility: hidden;
+}
